@@ -33,6 +33,9 @@
     <Compile Include="POUs\FB_CsvPersistentEventStorage.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_Test.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\I_PersistantEventStorage.TcIO">
       <SubType>Code</SubType>
     </Compile>

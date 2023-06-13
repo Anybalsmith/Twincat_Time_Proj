@@ -26,7 +26,9 @@ IF bBoolean THEN
 	//here we will add the event
 END_IF
 
-CsvPersistentEventStorage();]]></ST>
+CsvPersistentEventStorage();
+
+// a comment]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
@@ -40,6 +42,8 @@ CsvPersistentEventStorage();]]></ST>
       <LineId Id="18" Count="0" />
       <LineId Id="46" Count="0" />
       <LineId Id="10" Count="0" />
+      <LineId Id="59" Count="0" />
+      <LineId Id="58" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>

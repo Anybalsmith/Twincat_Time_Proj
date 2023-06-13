@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="FB_Test" Id="{5b98af6c-bc09-4483-93a2-391d8cb1c473}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Test
+VAR
+	nCounter : LINT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[nCounter := nCounter +1;]]></ST>
+    </Implementation>
+    <LineIds Name="FB_Test">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
